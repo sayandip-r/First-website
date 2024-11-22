@@ -1,0 +1,10 @@
+div > p{
+    background-color: blueviolet;
+    font-size: 22px;
+}
+div p{
+    background-color: green;
+}
+.aqua{
+        background-color: aquamarine;
+}
