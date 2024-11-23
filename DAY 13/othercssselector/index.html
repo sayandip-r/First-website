@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red {
+        background-color: red;
+      }
+      /*this is universal selector*/
+      * {
+        font-family: monospace;
+      }
+      /*pseudo selector*/
+      .box:hover {
+        background-color: green;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: green;
+      }
+      /*if link is visited*/
+      a:visited {
+        color: red;
+      }
+      /*if link is not visited*/
+      a:link {
+        color: yellowgreen;
+      }
+      button {
+        background-color: aquamarine;
+      }
+      /*when the element is pressed*/
+      button:active {
+        background-color: yellow;
+      }
+      /*on selecting any text in the website*/
+      span::selection{
+        background-color: yellow;
+        color: aqua;
+      }
+      p:first-child{
+        background-color: green;
+      }
+      p:nth-child(2){
+        background-color: yellow;
+      }
+      p:nth-last-child(2){
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">this is div tag</div>
+    <span>this is span tag</span>
+    <article>tgis is article tag</article>
+    <div class="box">this is box</div>
+    <a href="https://www.instagram2.com">Instagram website</a>
+    <button>Submit</button>
+
+
+
+
+    <div>
+     <p>this is p 1,first child</p>
+     <p>this is p 2,second child</p>
+     <p>this is p 3,third child</p>
+     <p>this is p 4,fourth child</p>
+     <p>this is p 5,fifth child</p>
+
+    </div>
+  </body>
+</html>
