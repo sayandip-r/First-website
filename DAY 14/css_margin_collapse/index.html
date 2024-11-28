@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box1 {
+        padding: 24px;
+        background-color: aqua;
+        margin-bottom: 20px;
+      }
+      .box2 {
+        background-color: blueviolet;
+        padding: 20px;
+        margin-top:20px;
+      }
+      /*In margin collapse,The largest margin will be applied between two boxes*/
+    </style>
+  </head>
+  <body>
+    <div class="box1">tthis is first box</div>
+    <div class="box2">this is second box</div>
+    <div style="margin-top: 20px; background-color: red;">
+     <p style="margin-top: 30px; background-color: green;"> this is child paragraph</p>
+    </div>
+
+    <div style="margin: 24px; background-color: green;" ></div>
+    <div style="padding : 24px; background-color: green;" ></div>
+  </body>
+</html>
