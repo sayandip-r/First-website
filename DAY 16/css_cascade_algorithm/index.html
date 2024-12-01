@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+      }
+      .container {
+        background-color: red;
+      }
+      .container2 {
+        background-color: blue;
+      }
+      .container3 {
+        background-color: green;
+      }
+      * {
+        color: aqua  ;
+      }
+      
+      h1 {
+        color: red !important;
+      }
+      #main_heading {
+        color: green;
+      }
+      .heading {
+        color: blue;
+      }
+      [data-x=abc]{
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container container2 container3"></div>
+    <h1 class="heading" id="main_heading" data-x="abc">heading</h1>
+    <p>
+      Style attribute > ID selector >Class Or Id selector > Element selector
+      >Universal selector
+    </p>
+  </body>
+</html>
